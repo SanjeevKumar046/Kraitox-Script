@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kraitox - Install Essential Programs at Once</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="main_content">
+      <div class="title">
+        <img src="./logo.ico" alt="" />
+        <h1>Kraitox Script</h1>
+      </div>
+
+      <form id="appForm">
+        <fieldset>
+          <legend>Web Browsers</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="brave"
+            />
+            <img src="images/brave.png" class="icon" alt="Brave Icon" />
+            Brave
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="Firefox"
+            />
+            <img src="images/firefox.png" class="icon" alt="Firefox Icon" />
+            Mozilla Firefox
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="GoogleChrome"
+            /><img src="images/chrome.png" class="icon" alt="Chrome Icon" />
+            Google Chrome
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="Vivaldi"
+            /><img src="images/vivaldi.png" class="icon" alt="Vivaldi Icon" />
+            Vivaldi
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Messaging & Communication</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="9NKSQGP7F2NH"
+            />
+            <img src="images/whatsapp.png" class="icon" alt="Whatsapp Icon" />
+            Whatsapp
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="telegram"
+            />
+            <img src="images/telegram.png" class="icon" alt="Telegram Icon" />
+            Telegram
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="zoom"
+            />
+            <img src="images/zoom.png" class="icon" alt="Zoom Icon" />
+            Zoom
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Media & Entertainment</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="vlc"
+            />
+            <img src="images/VLC.png" class="icon" alt="VLC Icon" />
+            VLC Media Player
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="k-litecodecpack-standard"
+            />
+            <img src="images/kliteCodec.png" class="icon" alt="K-Lite Icon" />
+            K-Lite Codec
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="handbrake"
+            />
+            <img src="images/HandBrake.png" class="icon" alt="Handbrake Icon" />
+            Handbrake
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="eartrumpet"
+            />
+            <img
+              src="images/earTrumpet.png"
+              class="icon"
+              alt="EarTrumpet Icon"
+            />
+            Ear Trumpet
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>File Management</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="treesize"
+            />
+            <img src="images/treeSize.png" class="icon" alt="TreeSize Icon" />
+            TreeSize Free
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="onecommanderonecommander"
+            />
+            <img
+              src="images/oneCommander.png"
+              class="icon"
+              alt="OneCommander Icon"
+            />
+            One Commander
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="Files"
+            />
+            <img src="images/files.png" class="icon" alt="Files Icon" />
+            Files
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="7zip"
+            />
+            <img src="images/7zip.png" class="icon" alt="7zip Icon" />
+            7-Zip
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>System Utilities</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="powertoys"
+            />
+            <img src="images/powerToys.png" class="icon" alt="PowerToys Icon" />
+            Microsoft PowerToys
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="hwinfo"
+            />
+            <img src="images/hwInfo.png" class="icon" alt="HWiNFO Icon" />
+            HwInfo
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="GeekUninstaller"
+            />
+            <img
+              src="images/geekUninstaller.png"
+              class="icon"
+              alt="GeekUninstaller Icon"
+            />
+            Geek Uninstaller
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="sdio"
+            />
+            <img src="images/sdio.png" class="icon" alt="sdio Icon" />
+            Snappy Driver Installer Origin
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="Everything"
+            />
+            <img
+              src="images/everything.png"
+              class="icon"
+              alt="Everything Icon"
+            />
+            Everything
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Network & Internet</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="qbittorrent"
+            />
+            <img
+              src="images/qbittorrent.png"
+              class="icon"
+              alt="qBittorent Icon"
+            />
+            qBittorent
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="FreeDownloadManager"
+            />
+            <img
+              src="images/FDM.png"
+              class="icon"
+              alt="FreeDownloadManager Icon"
+            />
+            Free Download Manager
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="jdownloader"
+            />
+            <img
+              src="images/jdownloader.png"
+              class="icon"
+              alt="jdownloader Icon"
+            />
+            jDownloader
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Security and Privacy</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="malwarebytes"
+            />
+            <img
+              src="images/malwareBytes.png"
+              class="icon"
+              alt="Malwarebytes Icon"
+            />
+            Malware Bytes
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="bitdefenderavfree"
+            />
+            <img
+              src="images/bitDefender.png"
+              class="icon"
+              alt="BitDefender Icon"
+            />
+            BitDefender
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="bitwarden"
+            />
+            <img src="images/bitwarden.png" class="icon" alt="Bitwarden Icon" />
+            Bitwarden
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>PDF & Documents</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="adobereader"
+            />
+            <img src="images/acrobat.png" class="icon" alt="Acrobat Icon" />
+            Adobe Acrobat
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="notepadplusplus"
+            />
+            <img
+              src="images/notepadPlusplus.png"
+              class="icon"
+              alt="Notepad Icon"
+            />
+            Notepad++
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="marktext"
+            />
+            <img src="images/marktext.png" class="icon" alt="MarkText Icon" />
+            MarkText
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="obsidian"
+            />
+            <img src="images/obsidian.png" class="icon" alt="Obsidian Icon" />
+            Obsidian
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="okular"
+            />
+            <img src="images/Okular.png" class="icon" alt="Okular Icon" />
+            Okular
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="libreoffice"
+            />
+            <img
+              src="images/libreOffice.png"
+              class="icon"
+              alt="libreoffice Icon"
+            />
+            Libre Office
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Others</legend>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="anydesk"
+            />
+            <img src="images/anydesk.png" class="icon" alt="AnyDesk Icon" />
+            Anydesk
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="rustdesk"
+            />
+            <img src="images/rustdesk.png" class="icon" alt="RustDesk Icon" />
+            RustDesk
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="parsec"
+            />
+            <img src="images/parsec.png" class="icon" alt="Parsec Icon" />
+            Parsec
+          </label>
+          <label class="custom-checkbox-label">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="apps"
+              value="discord"
+            />
+            <img src="images/discord.png" class="icon" alt="Discord Icon" />
+            Discord
+          </label>
+        </fieldset>
+
+        <button
+          id="submitButton"
+          class="button"
+          type="button"
+          onclick="generateScript()"
+          disabled
+        >
+          Get your script&nbsp;
+          <i class="fa-solid fa-file-code"></i>
+        </button>
+        <a
+          id="downloadLink"
+          style="display: none"
+          download="Kraitox_script.ps1"
+        >
+          Click here to download your script
+        </a>
+      </form>
+    </section>
+    <div class="spacer"></div>
+    <section id="guide" class="guide_content">
+      <h1>Guide</h1>
+      <h2>What?</h2>
+      <p>
+        A lineup of must-have programs, hand-picked just for you. You get to
+        play app-roulette and decide which ones to bless your fresh Windows
+        with, all thanks to our Winget wizardry. Because who says installing
+        software can't be a bit whimsical? Let the app adventure begin! Bon
+        appétit, Señor
+      </p>
+      <hr class="dash" />
+      <h2>Why?</h2>
+      <p>
+        I am aware that there are tens if not hundreds of similar apps/scripts
+        that offer more or less the same functionalities. Why should anyone
+        switch or use this instead of a well known and trusted one that does the
+        same things and perhaps even offers more? A solid question. They
+        shouldn't. Especially when we are talking about privacy in an script
+        created by an internet stranger. However, there are passengers for every
+        train and if you would like explore something new then you are welcome
+        to try out mine. Simply put, Why not ?
+      </p>
+      <hr class="dash" />
+      <h2>How?</h2>
+      <h3># Pre-requisites</h3>
+      <ul id="Prerequisites">
+        <li>> A computer running Windows.</li>
+        <li>> A caffeine supply adequate for at least three all-nighters.</li>
+        <li>
+          > An irrational belief that this time, the installation will be
+          smooth.
+        </li>
+        <li>> Most importantly, Patience level of a Master Zen Monk.</li>
+      </ul>
+      <h3># Steps</h3>
+      <ul id="steps" style="line-height: 220%">
+        <li>Step 1: Select the apps you desperately need.</li>
+        <li>
+          Step 2: Click the big, shiny <span>"Get your script"</span> button to
+          summon your custom script.
+        </li>
+        <li>
+          Step 3: Open PowerShell as the almighty administrator on your PC. It
+          demands respect.
+        </li>
+        <li>Step 4: Copy the path of your script. Paste it on the shell.</li>
+        <li>
+          Step 5: Execute your script in PowerShell. Time to let it flex its
+          muscles.
+        </li>
+        <li>
+          Step 6: Double-check the list of apps you chose to install. No
+          surprises, just the apps you ordered.
+        </li>
+        <li>
+          Step 7: Voila! Sit back and relax while the script does the heavy
+          lifting. It's like having <span>minions</span>, but for software.
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__redes">
+        <ul class="footer__redes-wrapper">
+          <li>
+            <a
+              href="https://github.com/SanjeevKumar046"
+              target="_blank"
+              class="footer__link"
+            >
+              <i class="fa-brands fa-github"></i>
+              github
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sanjeev-kumar-d046/"
+              target="_blank"
+              class="footer__link"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+              linkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/sanjeev_d_kumar"
+              target="_blank"
+              class="footer__link"
+            >
+              <i class="fa-brands fa-instagram"></i>
+              instagram
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="separador"></div>
+      <p class="footer__texto">Copyright @ 2024</p>
+    </footer>
+
+    <div id="notify" class="notifications-container">
+      <div class="info">
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <svg
+              class="info-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <div class="info-prompt-wrap">
+            <p class="">
+              Download Complete.
+              <a id="guidenav" class="info-prompt-link" href="#guide"
+                >Click here to know how to run this.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
